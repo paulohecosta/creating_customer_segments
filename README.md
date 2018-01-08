@@ -1,6 +1,19 @@
 # Project 3: Unsupervised Learning
 ## Creating Customer Segments
 
+Aluno: Paulo Henrique da Costa
+Local: São Paulo - BR
+
+Este repositório foi criado para enviar o projeto desenvolvido durante o nanodegree Machine Learning Engineer.
+
+São de autoria do Aluno apenas as questões respondidas e os seguintes arquivos.
+
+report.html
+
+Os arquivos restantes são de autoria da Udacity e foram fornecidos para o cumprimento da entrega do projeto citado no título.
+
+# Notas do READ.me original abaixo
+
 ### Install
 
 This project requires **Python 2.7** and the following Python libraries installed:
@@ -22,8 +35,8 @@ Template code is provided in the notebook `customer_segments.ipynb` notebook fil
 
 In a terminal or command window, navigate to the top-level project directory `creating_customer_segments/` (that contains this README) and run one of the following commands:
 
-```ipython notebook customer_segments.ipynb```
-```jupyter notebook customer_segments.ipynb```
+```ipython notebook customer_segments_PT.ipynb```
+```jupyter notebook customer_segments_PT.ipynb```
 
 This will open the iPython Notebook software and project file in your browser.
 
