@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import pandas as pd
 import numpy as np
+import seaborn as sns
 from sklearn.decomposition import pca
 
 def pca_results(good_data, pca):
