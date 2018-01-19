@@ -20833,10 +20833,11 @@ QmCC
 <p>Primeiros dois componentes 0.706817230807<br/>
 Primeiros quatro componentes 0.931090109951<br/></p>
 <p>O primeiro e o segundo componentes principais explicam 0.709 da variância dos dados, enquanto os primeiros quatro componentes principais explicam 0.931 da variância dos dados.</p>
-<p>Dimensão 1: Maiores gastos com milk, groceries, detergents;</p>
-<p>Dimensão 2: Maiores gastos com frozen, fresh e delicatessen;</p>
-<p>Dimensão 3: Maiores gastos com frozen, fresh e delicatessen, quase nenhum gasto com milk e grocery;</p>
-<p>Dimensão 4: Maiores gastos com frozen e delicatessen, quase nenhum gasto com milk e grocery;</p>
+<p>Os valores de cada dimensão são baseados em encontrar quais features estão correlacionadas com seu valor, são elas as que possuirem maior magnitude, ou estiverem mais distantes do zero, seja positiva ou negativamente. Portanto:</p>
+<p>Dimensão 1: Está fortemente correlacionada com milk, groceries, detergents, portanto quanto maior o gasto com essas features, maior será o valor da dimensão. Como notamos, o gráfico sugere que as variáveis milk e grocery variam juntas, o mesmo acontece em uma rápida olhada nas outras dimensões. Esta dimensão é boa para categorizar mercados e revendedores.</p>
+<p>Dimensão 2: Nesta dimensão, quanto maiores gastos com frozen, fresh e delicatessen, maior o valor da dimensão, que ajuda a categorizar um cliente como restaurante/etc, que serve refeição sem um foco específico.</p>
+<p>Dimensão 3: O valor significante em fresh, seguido de frozen e delicatessen e quase nenhum gasto com milk e grocery sugere que esta dimensão é boa para categorizar restaurantes mais focados em comida saudável.</p>
+<p>Dimensão 4: Maiores gastos com frozen e delicatessen, e quase nenhum gasto com milk e grocery sugere um tipo de cliente focado em carne animal e derivados, como um açougue ou churrascaria.</p>
 
 </div>
 </div>
